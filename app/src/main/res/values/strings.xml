@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">ExperimentOne</string>
     <string name="title_name">中山大学课外体育积分电子认证系统</string>
+    <string name="user_name">用户名：</string>
+    <string name="password">密码：</string>
+    <string name="user_hint">请输入用户名</string>
+    <string name="password_hint">请输入密码</string>
+
 </resources>
