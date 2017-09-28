@@ -106,14 +106,15 @@
         app:layout_constraintTop_toBottomOf="@+id/editText"
         android:id="@+id/radioGroup"
         android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp">
+        android:layout_marginEnd="8dp"
+        android:checkedButton="@id/default_activity_button">
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:checked="true"
+            android:id="@+id/default_activity_button"
             android:text="@string/radio1" />
-
+        <!--android:checked="true"-->
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
